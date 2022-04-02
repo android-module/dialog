@@ -26,7 +26,7 @@ open class LifeDialogFragment : DialogFragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        log(TAG, "onAttach: ")
+//        log(TAG, "onAttach: ")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
