@@ -46,13 +46,13 @@ android {
 }
 
 dependencies {
-    implementation(Deps.kotlin_stdlib)
-    implementation(Deps.constraintlayout)
-    implementation(Deps.ktx)
-    implementation(Deps.appcompat)
-    implementation(Deps.lifecycle)
-    implementation(Deps.recyclerview_animators)
-    implementation(Deps.BaseRecyclerViewAdapterHelper)
-    implementation(project(":utils"))
-    implementation(project(":common"))
+     implementation(libs.kotlin.stdlib.jdk8)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.kotlin.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.lifecycle)
+    implementation(libs.recyclerviewAnimators)
+    implementation(libs.baseRecyclerViewAdapterHelper)
+    implementation(projects.utils)
+    implementation(projects.common)
 }
